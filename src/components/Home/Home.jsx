@@ -77,7 +77,7 @@ const Home = () => {
       {loader && loader ? (
         <Loader />
       ) : (
-        <div className="section-product container">
+        <div className="section-product">
           <div className="filter_bar">
             <FilterBar
               setCategory={setCategory}
