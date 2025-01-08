@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { TiArrowForwardOutline } from "react-icons/ti";
+import { FaArrowUp } from "react-icons/fa";
 import "./ScrollTopBtn.css";
 
 const ScrollToTopButton = () => {
@@ -51,7 +51,7 @@ const ScrollToTopButton = () => {
             cy="18"
           />
         </svg>
-        <TiArrowForwardOutline className="scroll-to-top-icon" />
+        <FaArrowUp className="scroll-to-top-icon" />
       </button>
     </div>
   );
