@@ -7,7 +7,8 @@
   padding: 30px;
   width: 300px;
   box-shadow: 5px 5px 6px #cacaca;
-  position: fixed;
+  position: sticky;
+  top: 80px;
   background-color: #fff;
 }
 
