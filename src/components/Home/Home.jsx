@@ -74,7 +74,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      {loader ? (
+      {loader && loader ? (
         <Loader />
       ) : (
         <div className="section-product">
