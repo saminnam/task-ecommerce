@@ -1,12 +1,12 @@
 .container {
   background-color: #e4e6e8;
+  position: sticky;
+  top: 0;
 }
 
 .nav-bar {
-  position: sticky;
   max-width: 1440px;
   margin: auto;
-  top: 0;
   z-index: 1;
   display: flex;
   justify-content: space-between;
