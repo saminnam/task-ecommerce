@@ -1,6 +1,11 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
 .section-product {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
   margin-top: 20px;
 }
